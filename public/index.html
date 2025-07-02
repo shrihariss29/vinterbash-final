@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Vinterbash</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  <link rel="icon" type="image/x-icon" href="./osalogo.png">
+  <meta name="description" content="Unleash Your Potential at Vinterbash – the premier interschool competition by the old students 
+  association of Sri Vageesha Vidhyashram, where champions rise and dreams come true. Get ready for an epic adventure of laughter, 
+  excitement, and lifelong memories. ">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Michroma&family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Playwrite+DE+Grund:wght@100..400&display=swap" 
+  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100..800&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script src="../src/index.js" type="text/jsx"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+
+  <script>
+    function isMobile() {
+      return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    }
+
+    function setHref() {
+      const mail = document.getElementById('mail');
+      if (isMobile()) {
+        mail.href = 'mailto:vinterbash2024@gmail.com?';
+      } else {
+        mail.href = 'https://mail.google.com/mail/?view=cm&fs=1&to=vinterbash2024@gmail.com';
+        mail.target = '_blank';
+      }
+    }
+    window.onload = setHref;
+  </script>
+</body>
+<footer>
+  <div class="wholefooter">
+    <div class="contentfooter">
+      <div>
+        <h1 class="footername">VINTERBASH</h1>
+        <h3 class="footertheme">WHERE CHAMPIONS RISE!</h3>
+        <p>July 27th, 2024</p>
+      </div>
+      <div class="linkfooter">
+        <div class="socialmedia">
+        <a id="mail"><img src="footer2.jpg" alt="Gmail"></a> 
+        <a href="https://www.instagram.com/vageeshaosa/" target="_blank"><img src="footer1.jpg" alt="Instagram"></a>
+        <a href="https://maps.app.goo.gl/WPRcauXJaa4rzhoq8" target="_blank"><img src="footer3.jpg" alt="Maps"></a>
+        <a href="https://srivageesha.com/" target="_blank"><img src="footer4.jpg" alt="school site  "></a>
+        <a id="playstore" href="https://play.google.com/store/apps/details?id=com.mycompany.vinterbash" target="_blank"><img src="footer5.png" alt="school site  "></a>
+        </div>
+        <img src="Indian_govt.jpg" alt="Indian Government Logo" />
+      </div>
+    </div>
+    <hr>
+    <div class="anchor">
+      <a href="/">Home</a>
+      <a href="/Events">Events</a>
+      <a href="/Contact">Contact</a>
+    </div>
+    <h2 class="devby"> Developed by Old student's association of Sri Vageesha Vidhyashram Ⓒ</h2>
+  </div>
+</footer>
+</html>
