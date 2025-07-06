@@ -29,6 +29,7 @@ function Navb() {
               <Nav.Link className="navele" id="navele1" href="/">HOME</Nav.Link>
               <Nav.Link className="navele" id="navele1" href="/events">EVENTS</Nav.Link>
               <Nav.Link className="navele" id="navele4" href="/Contact">CONTACT</Nav.Link>
+              <Nav.Link className="navele" id="navele4" href="/Schedule">SCHEDULE</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

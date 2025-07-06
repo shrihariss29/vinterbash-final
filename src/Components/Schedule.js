@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import art from "../assets/art.jpg";
-import cinema from "../assets/cinema.jpg";
 import dance from "../assets/dance.jpg";
 import drama from "../assets/drama.jpg";
 import elits from "../assets/elits.jpg";
@@ -12,158 +11,143 @@ import tech from "../assets/tech.jpg";
 import eventvinterlogo from "../assets/eventvinterlogo.jpg";
 const events = [
   {
-    title: "Art",
-    subtitle: "Multi media madness",
-    type: "Single shot event",
-    time: "10:00 am to 01:00 pm",
-    venue: "XII-A1, XII-A2, XI-A1, XIII-Maithreyan",
-    imgSrc: art,
-  },
-  {
-    title: "Art",
-    subtitle: "Cartoon Universe Crossover",
-    type: "Single shot event",
-    time: "02:00 pm to 05:00 pm",
-    venue: "XII-A1, XII-A2, XI-A1,XII-Maithreyan",
-    imgSrc: art,
-  },
-  {
-    title: "Cinema",
-    subtitle: "Thirai @480°",
-    type: "Single shot event",
-    time: "Will be announced on the event day",
-    venue: "To be announced",
-    imgSrc: cinema,
-  },
-  {
-    title: "Dance",
-    subtitle: "Heels in the sky",
-    type: "Two phased event",
-    time: "9:30 am to 11:00 am (Prelims), 5:00 pm to 06:00pm (Finals)",
-    venue: "Prelims : Seminar hall, Finals : main stage",
-    imgSrc: dance,
-  },
-  {
-    title: "Dance",
-    subtitle: "Nalamdhaana",
-    type: "Single shot event",
-    time: "11:30 am to 01:30 pm",
-    venue: "Seminar Hall",
-    imgSrc: dance,
-  },
-  {
-    title: "Dance",
-    subtitle: "Five,Six,Seven,Eight",
-    type: "Single shot event",
-    time: "02:00 pm to 04:30 pm",
-    venue: "Main Stage",
-    imgSrc: dance,
-  },
-  {
-    title: "Dramatics",
-    subtitle: "The imitation game",
-    type: "Two phased event",
-    time: "11:00 am to 12 noon (Prelims), 02:00 pm to 04:00 pm (Finals)",
-    venue: "Prelims and Finals : V-Upakosalan",
-    imgSrc: drama,
-  },
-  {
-    title: "Dramatics",
-    subtitle: "Aathi, idhu adhulla",
-    type: "Single shot event",
-    time: "11:30 am to 01:30 pm",
-    venue: "Main Stage",
-    imgSrc: drama,
-  },
-  {
-    title: "English literature",
-    subtitle: '"What if" Odyssey',
-    type: "Single shot event",
-    time: "10:00 am to 12 noon",
-    venue: "V-Sathyakaman, V-Nachiketas",
-    imgSrc: elits,
-  },
-  {
-    title: "English literature",
-    subtitle: "Think on your Feet",
-    type: "Two phased event",
-    time: "02:00 pm to 03:00 pm (Prelims), 03:30 pm to 05:30 pm (Finals)",
-    venue: "Prelims and Finals : V-Sathyakaman, V-Nachiketas",
-    imgSrc: elits,
-  },
-  {
-    title: "Music",
-    subtitle: "Chordially Yours : group music",
-    type: "Single shot event",
-    time: "9:30 am to 11:30 am",
-    venue: "Main Stage",
-    imgSrc: music,
-  },
-  {
-    title: "Music",
-    subtitle: "Acoustic Nirvana",
-    type: "Single shot event",
-    time: "2:00 pm to 4:00 pm",
-    venue: "Seminar Hall",
-    imgSrc: music,
-  },
-  {
-    title: "Quiz",
-    subtitle: "The Triquizzard Tournament",
-    type: "Two phased event",
-    time: "9:30 am to 10:30 am (Prelims), 11:30 am to 01:30 pm (Finals)",
-    venue: "Prelims : IV-Sathyakaman, IV-Upakosalan, IV-Vysampayanan, Finals : Primary Block Conference Hall",
-    imgSrc: quiz,
-  },
-  {
-    title: "Quiz",
-    subtitle: "Ithihaas Quiz",
-    type: "Two phased event",
-    time: "02:00 pm to 03:00 pm (Prelims), 03:30 pm to 05:30 pm (Finals)",
-    venue: "Prelims : IV-Sathyakaman, IV-Upakosalan, IV-Vysampayanan, Finals : Primary Block Conference Hall",
-    imgSrc: quiz,
-  },
-  {
-    title: "Sports",
-    subtitle: "Vinter bowl-out (Cricket)",
-    type: "Whole day event",
-    time: "9:00 am to 6:00 pm",
-    venue: "Green Grass Turf",
-    imgSrc: sport,
-  },
-  {
-    title: "Sports",
-    subtitle: "Vinter kick-off (Football)",
-    type: "Whole day event",
-    time: "9:00 am to 6:00 pm",
-    venue: "Green Grass Turf",
-    imgSrc: sport,
-  },
-  {
-    title: "தமிழ் இலக்கியம்",
-    subtitle: "மொழியமுதம்",
-    type: "Two phased event",
-    time: "11:30 am to 01:00 pm (Prelims), 02:30 pm to 04:30 pm (Finals)",
-    venue: "Prelims : V-Vysampayanan, Finals : III-Nachiketas",
+    title: "தமிழ்",
+    subtitle: "கூடு விட்டு கூடு ",
+    type: "இரண்டு சுற்றுகளுக்கு மேல் ",
+    time: "விரைவில் அறிவிக்கப்படும் ",
+    venue: "விரைவில் அறிவிக்கப்படும் ",
     imgSrc: tamillits,
   },
   {
     title: "Tech",
-    subtitle: "Python prowess quest",
-    type: "Two phased event",
-    time: "10:00 am to 11:00 am (Prelims), 02:00 pm to 04:00 pm (Finals)",
-    venue: "Prelims and Finals : Computer Lab",
+    subtitle: "Ctrl + Alt + Decrypt",
+    type: "Has more than two rounds",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
     imgSrc: tech,
   },
   {
+    title: "Art",
+    subtitle: "DOOMSDAY: The Final Frame",
+    type: "Only one round",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
+    imgSrc: art,
+  },
+  {
     title: "Title event",
-    subtitle: "Ms/Mr Vinterbash",
-    type: "Single shot event",
-    time: "03:30 pm onwards",
-    venue: "To be announced",
+    subtitle: "Coronation - (Mr And Ms VinterBash)",
+    type: "Has prelims and finals",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
     imgSrc: eventvinterlogo,
   },
+  {
+    title: "Sports",
+    subtitle: "Vinter Kick-Off: 5-A Side Football",
+    type: "Only one round",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
+    imgSrc: sport,
+  },
+  {
+    title: "Dance",
+    subtitle: "Unnai Kaanathu..!!",
+    type: "Has more than two rounds",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
+    imgSrc: dance,
+  },
+  {
+    title: "Cubing",
+    subtitle: "No time to Solve",
+    type: "Only one round",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
+    imgSrc: tech,
+  },
+  {
+    title: "Music",
+    subtitle: "Chordially Yours!",
+    type: "Has prelims and finals",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
+    imgSrc: music,
+  },
+  {
+    title: "Sports",
+    subtitle: "Vinter Bowl-Out: Turf Cricket",
+    type: "Only one round",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
+    imgSrc: sport,
+  },
+  {
+    title: "Art",
+    subtitle: "Ar(T)elic!",
+    type: "Has prelims and finals",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
+    imgSrc: art,
+  },
+  {
+    title: "Dramatics",
+    subtitle: "Imitation Game",
+    type: "Only one round",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
+    imgSrc: drama,
+  },
+  {
+    title: "Dance",
+    subtitle: "Drop the Beat",
+    type: "Only one round",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
+    imgSrc: dance,
+  },
+  {
+    title: "Quiz",
+    subtitle: "The Triquizzard Tournament 5.O",
+    type: "Has more than two rounds",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
+    imgSrc: quiz,
+  },
+  {
+    title: "Music",
+    subtitle: "Acoustic Nirvana",
+    type: "Only one round",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
+    imgSrc: music,
+  },
+  {
+    title: "English literature",
+    subtitle: "Time Traveller's Theatre",
+    type: "Only one round",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
+    imgSrc: elits,
+  },
+  {
+    title: "Gaming",
+    subtitle: "Vinter Goal-Rush: FIFA '25",
+    type: "Only one round",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
+    imgSrc: tech,
+  },
+  {
+    title: "Dramatics",
+    subtitle: "Nalla Otrainga da Reel-uh!",
+    type: "Only one round",
+    time: "To be announced shortly",
+    venue: "To be announced shortly",
+    imgSrc: drama,
+  },
 ];
+
 function Schedule() {
   const [selectedType, setSelectedType] = useState("All");
   const handleTypeChange = (event) => {
@@ -197,7 +181,7 @@ function Schedule() {
         >
           <option value="All">All</option>
           <option value="Art">Art</option>
-          <option value="Cinema">Cinema</option>
+          <option value="Cubing">Cubing</option>
           <option value="Dance">Dance</option>
           <option value="Dramatics">Dramatics</option>
           <option value="English literature">English literature</option>
@@ -226,3 +210,9 @@ function Schedule() {
   );
 }
 export default Schedule;
+
+
+
+
+
+

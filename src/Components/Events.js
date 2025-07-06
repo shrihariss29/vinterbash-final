@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 function Events()
 {
     
@@ -35,9 +36,8 @@ function Events()
     </div>
     <div className="rulebook">
     <p>Click here to register</p>
-    <a className="btn btn-danger reg" href="registerform">Register</a>
+    <a className="btn btn-danger reg" href="/signIn">Register</a>
     </div>
-    <p className="announce">Note : If you have registered by online, kindly ignore the below form.</p>
     {/* <div className="rulebook">
     <p>Click here to register in the traditional way (Alternative)</p>
     <a className="btn btn-danger reg" href="https://forms.gle/WwwDnHGsNHjBmBJh8" target="_blank" rel="noreferrer">Register</a>
@@ -46,3 +46,4 @@ function Events()
     </div>
 }
 export default Events;
+
