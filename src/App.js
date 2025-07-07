@@ -46,7 +46,7 @@ function AppRouter() {
   }
 
   return (
-    <>
+    <div className="page-content">
       <Routes>
         {/* Public Pages under Navbar */}
         <Route path="/" element={<Navb />}>
@@ -83,9 +83,10 @@ function AppRouter() {
       </Routes>
 
       {showFooter && <Footer />}
-    </>
+    </div>
   );
 }
+
 
 export default function App() {
   return (
