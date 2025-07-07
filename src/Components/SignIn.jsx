@@ -56,7 +56,7 @@ function SignIn() {
                 </form>
 
                 <p>
-                    If you are unaware of your password, contact our technical co-ordinators
+                    If you are unaware of your password, kidnly contact our technical co-ordinators
                 </p>
             </div>
         </div>
