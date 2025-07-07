@@ -243,6 +243,32 @@ hr {
   margin-top: 2%;
   color:white;
 }
+.homeRulebook{
+   display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-left: 8%;
+  margin-left: 8%;
+  width: 84%;
+  border-radius: 2%;
+  margin-top: 7%;
+  background-color: black;
+  color: white;
+  padding: 1%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5vw;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+.homereg{
+  animation-name: fade;
+  animation-duration: 3s;
+   background: linear-gradient(135deg, #F37D00, #FEC000);
+  font-size: 2vw;
+  width: 30%;
+  height:100%;
+  color: black;
+}
 .orgcre
 {
   font-size: 1.5vw;
@@ -359,13 +385,14 @@ hr {
   align-items: center;
   flex-direction: column;
   width: 80%;
-  margin-top: 1%;
+  margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 3.5vw;
+  font-size: 4.5vw;
   animation-name: fade;
   animation-duration: 3.5s;
+      text-decoration: underline;
 }
 
 /*Imageform*/
@@ -852,6 +879,12 @@ form p {
   {
     margin-bottom: 4%;
   }
+    .homeRulebook {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 7%;
+    font-size: 4vw;
+  }
 
   /*Events.js*/
   .eventwelcome {
@@ -948,12 +981,16 @@ form p {
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 7vw;
+    font-size: 5vw;
+    text-decoration: underline;
   }
   .carousel {
     outline-width: 1dvh;
   }
-
+  .homereg {
+width: 25%;
+margin-top:0.5% ;
+}
   /*Imageform*/
   form {
     padding: 5%;
