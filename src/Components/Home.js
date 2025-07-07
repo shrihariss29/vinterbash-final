@@ -18,9 +18,25 @@ function Home() {
           </Carousel.Item>
         ))}
       </Carousel>
-      <div>
-        
-      </div>
+  <div className="homeRulebook">
+    <p>Click here to register for Vinterbash'25</p>
+    <a className="btn btn-danger homereg" href="/signIn">Register</a>
+    </div>
+      <h1 className="hometitle">About us</h1>
+      <h3 className="homeabout">
+        With the blessings of the Almighty, the Old Students Association of Sri
+        Vageesha Vidhyashram has been successfully conducting “Vinterbash” – our
+        flagship interschool competition which showcases the best and brightest
+        minds from various schools in Trichy for the past four years. Join us
+        to witness young minds unleash their creativity, skill, and strategy in
+        a series of competitive events ranging from riveting debates, dazzling
+        performances, cheery worthy goals, and intriguing intellect, as the
+        fourth edition of Vinterbash is just around the corner – an event ‘where
+        champions rise.’ Registrations are now open. Mark your calendars for
+        July 26 as we welcome you all to ignite dreams and define
+        victories with us!
+      </h3>
+      <div></div>
     </div>
   );
 }
